@@ -1,13 +1,40 @@
-.T{
-border: 5px 
-heigth: 50px
-width: 900px
-padding: 70px
+h1 {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.M{
-border: 
+p{
+    color:black;
+}
+
+main{
+margin-top:1rem;
 
 
+}
+.paragrafo {
+
+    border: 1px solid  rgb(38, 67, 192);
+    color: #00f;
+    margin-top: 1rem;
+}
+#titulo  {
+color:blue;
+margin-bottom:1rem;
+}
+
+input[type=password] {
+    font-size: 3rem;
+}
+
+.login-form > input {
+color:#00f;
+width: 10rem;
+}
+
+.cadastro-form input:nth-of-type(2){
+    border: 5px solid #00f;
 }
 
